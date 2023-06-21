@@ -1,0 +1,27 @@
+{
+  "name": "hello-plugin",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "build": "mpflow-service build",
+    "dev": "mpflow-service dev",
+    "dev:open": "mpflow-service dev --open",
+    "test:e2e": "mpflow-service test:e2e",
+    "test:unit": "mpflow-service test:unit"
+  },
+  "dependencies": {
+    "@mpflow/plugin-babel": "^0.0.38",
+    "@mpflow/plugin-css": "^0.0.34",
+    "@mpflow/plugin-e2e-test": "^0.0.34",
+    "@mpflow/plugin-typescript": "^0.0.34",
+    "@mpflow/plugin-unit-test": "^0.0.34",
+    "@mpflow/service": "^0.0.34"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@types/jest": "^26.0.9",
+    "@types/wechat-miniprogram": "^2.11.0",
+    "miniprogram-simulate": "^1.2.7",
+    "typescript": "^3.9.7"
+  }
+}
